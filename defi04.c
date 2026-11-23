@@ -28,6 +28,6 @@ int main(void)
 	else
 		str = "Note invalide";
 
-	printf("Appréciation : %s\n", str);
+	printf("Note : %d\nAppréciation : %s\n", note, str);
 	return (0);
 }
